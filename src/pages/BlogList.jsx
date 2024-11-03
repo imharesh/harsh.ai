@@ -3,62 +3,60 @@ import { Container, Typography, Grid, Card, CardContent, CardMedia, CardActionAr
 import { useNavigate } from 'react-router-dom';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import TimerIcon from '@mui/icons-material/Timer';
-
-// Sample blog data
 const blogPosts = [
   {
     id: 1,
-    title: "The Future of AI in Healthcare",
-    excerpt: "Exploring how artificial intelligence is revolutionizing medical diagnosis and treatment planning...",
-    image: "/api/placeholder/800/400",
-    category: "Healthcare",
+    title: "AI Voice Assistant with Deepgram",
+    excerpt: "In today's fast-paced hospitality industry, providing excellent customer service around the clock is crucial. This article will guide you through creating an AI-powered voice assistant specifically designed for hotel and resort booking management. This innovative solution combines speech recognition, natural language processing, and text-to-speech technology to offer a seamless, conversational experience for customers.",
+    image: '../../public/img/voiceai.jpeg',
+    category: "Generative AI",
     author: {
-      name: "Dr. Sarah Chen",
+      name: "Haresh Baraiya",
       avatar: "/api/placeholder/40/40"
     },
-    date: "2024-03-15",
-    readTime: "5 min read"
+    date: "2024-10-10",
+    readTime: "15 min read"
   },
   {
     id: 2,
-    title: "Machine Learning in Financial Markets",
-    excerpt: "How ML algorithms are transforming trading strategies and risk management in finance...",
-    image: "/api/placeholder/800/400",
-    category: "Finance",
+    title: "Understanding Retrieval-Augmented Generation (RAG) in LangChain",
+    excerpt: "Ever wondered how to keep your language models up-to-date with the latest information? Dive into a blog post on Retrieval-Augmented Generation (RAG) and see how top companies like OpenAI and Google are leading the way. RAG is an innovative technique that breathes new life into LMs by incorporating up-to-date knowledge that wasn't part of their initial training. Whether you're a business professional looking to supercharge your AI capabilities or an academic seeking cutting-edge solutions, this guide will help you harness the power of RAG. We'll break down the concept into five easy-to-understand sections, making it accessible even if you're new to AI.",
+    image: '../../public/img/RAG.png',
+    category: "Generative AI",
     author: {
-      name: "Michael Ross",
+      name: "Haresh Baraiya",
       avatar: "/api/placeholder/40/40"
     },
-    date: "2024-03-12",
-    readTime: "7 min read"
+    date: "2024-10-15",
+    readTime: "15 min read"
   },
   {
     id: 3,
-    title: "The Ethics of AI Development",
-    excerpt: "Discussing the important ethical considerations in artificial intelligence development...",
-    image: "/api/placeholder/800/400",
-    category: "Ethics",
+    title: "Build LLM Agent combining Reasoning and Action (ReAct) framework using LangChain",
+    excerpt: "Most of the people see LLM as a knowledge source which is having good understanding of language and is built using internet data. So people can ask some questions and LLMs can return the answer. But one interesting thing about LLM is that they can be used as a reasoning engine. LLMs can do reasoning and can take action through different techniques.",
+    image: '../../public/img/lang.jpeg',
+    category: "Generative AI",
     author: {
-      name: "Emma Watson",
+      name: "Haresh Baraiya",
       avatar: "/api/placeholder/40/40"
     },
-    date: "2024-03-10",
-    readTime: "6 min read"
+    date: "2024-10-25",
+    readTime: "15 min read"
   },
   {
     id: 4,
-    title: "Natural Language Processing Breakthroughs",
-    excerpt: "Recent advances in NLP that are changing how machines understand human language...",
-    image: "/api/placeholder/800/400",
-    category: "Technology",
+    title: "Chatbots that Convert: The Power of WhatsApp LLM Bots",
+    excerpt: "Customer interaction and operation performance are the current key elements of the success of most businesses. Given such a humongous user base, WhatsApp offers the best-suited platform for these interactions. The introduction of large language models into WhatsApp bots can be seized as an opportunity for businesses with personalized, efficient, and scalable communication solutions.",
+    image: '../../public/img/ai1.jpg',
+    category: "Generative AI",
     author: {
-      name: "James Liu",
+      name: "Haresh Baraiya",
       avatar: "/api/placeholder/40/40"
     },
-    date: "2024-03-08",
-    readTime: "8 min read"
+    date: "2024-10-30",
+    readTime: "15 min read"
   },
-  // Add more blog posts here
+
 ];
 
 // BlogCard Component

@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Company Info Column */}
           <Grid item xs={12} md={3}>
             <Box component="img"
-              src="/src/assets/logo.png"
+              src="../../assets/img/mainlogo.svg"
               alt="Harsh.AI"
               sx={{ height: 60, mb: 3 }}
             />
