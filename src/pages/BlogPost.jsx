@@ -13,68 +13,363 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // Sample blog posts data
 const blogPostsData = {
     1: {
-        title: "The Future of AI in Healthcare: Transforming Patient Care",
+        title: "Voice AI Assistants in Hotel Management: A Complete Implementation Guide",
         content: `
       <h2>Introduction</h2>
-      <p>Artificial Intelligence is revolutionizing healthcare delivery and patient care in ways we never imagined possible. From early disease detection to personalized treatment plans, AI is becoming an indispensable tool in modern healthcare.</p>
+      <p>In today's fast-paced hospitality industry, providing excellent customer service around the clock is crucial. This comprehensive guide will walk you through creating an AI-powered voice assistant specifically designed for hotel and resort booking management. This innovative solution combines speech recognition, natural language processing, and text-to-speech technology to offer a seamless, conversational experience for customers.</p>
       
-      <h2>Key Applications of AI in Healthcare</h2>
-      <p>The integration of AI in healthcare spans multiple areas:</p>
+      <h2>Benefits of Voice AI in Hospitality</h2>
       <ul>
-        <li><strong>Medical Imaging Analysis:</strong> AI algorithms can detect subtle patterns in X-rays, MRIs, and CT scans that might be missed by the human eye.</li>
-        <li><strong>Disease Prediction:</strong> Machine learning models can predict patient risks and potential health issues before they become serious.</li>
-        <li><strong>Treatment Planning:</strong> AI helps create personalized treatment plans based on patient data and medical history.</li>
-        <li><strong>Drug Discovery:</strong> AI accelerates the process of discovering and developing new medications.</li>
+        <li><strong>24/7 Availability:</strong> AI assistants handle inquiries and bookings round-the-clock</li>
+        <li><strong>Enhanced Efficiency:</strong> Manage multiple queries simultaneously, reducing wait times</li>
+        <li><strong>Consistency:</strong> Provide uniform information and service quality regardless of time or workload</li>
+        <li><strong>Multilingual Support:</strong> Communicate in multiple languages, catering to diverse clientele</li>
+        <li><strong>Cost Reduction:</strong> Lower operational costs associated with customer service staffing</li>
+        <li><strong>Data Insights:</strong> Gather valuable data on customer preferences and common queries</li>
+        <li><strong>Personalization:</strong> Remember guest preferences for tailored recommendations</li>
       </ul>
 
-      <h2>Real-World Impact</h2>
-      <p>Healthcare providers worldwide are already seeing significant benefits:</p>
+      <h2>Project Overview</h2>
+      <p>The AI-powered voice assistant, named "Harsh," acts as a receptionist for an AI resort booking service. It handles room reservations, provides information about resort amenities, and maintains a friendly, conversational tone throughout interactions.</p>
+
+      <h2>Key Components</h2>
+      <h3>1. Speech Recognition</h3>
+      <p>The system uses advanced speech recognition technology to accurately convert guest voice inputs into text, enabling natural conversation flow.</p>
+
+      <h3>2. Natural Language Processing</h3>
+      <p>Sophisticated AI algorithms process and understand guest requests, ensuring appropriate and contextual responses to inquiries.</p>
+
+      <h3>3. Text-to-Speech Synthesis</h3>
+      <p>High-quality voice synthesis technology converts AI responses into natural-sounding speech, creating a seamless conversational experience.</p>
+
+      <h2>AI Assistant Capabilities</h2>
+      <h3>Booking Management</h3>
+      <ol>
+        <li>Collect guest preferences for check-in and check-out dates</li>
+        <li>Determine the number of guests and room requirements</li>
+        <li>Check room availability and provide options</li>
+        <li>Process reservations and confirm bookings</li>
+        <li>Handle special requests and additional amenities</li>
+      </ol>
+
+      <h3>Information Services</h3>
       <ul>
-        <li>30% reduction in diagnosis time</li>
-        <li>40% improvement in treatment accuracy</li>
-        <li>50% decrease in administrative tasks</li>
-        <li>25% cost reduction in patient care</li>
+        <li>Provide details about hotel facilities and services</li>
+        <li>Answer queries about room amenities</li>
+        <li>Explain booking policies and procedures</li>
+        <li>Offer information about local attractions</li>
       </ul>
 
-      <h2>Future Prospects</h2>
-      <p>The future of AI in healthcare looks even more promising. Emerging trends include:</p>
+      <h2>Implementation Benefits</h2>
       <ul>
-        <li><strong>Personalized Medicine:</strong> Tailoring treatments to individual genetic profiles</li>
-        <li><strong>Real-time Monitoring:</strong> Continuous patient health tracking using AI-powered devices</li>
-        <li><strong>Automated Diagnosis:</strong> Advanced systems for rapid and accurate disease diagnosis</li>
-        <li><strong>Predictive Healthcare:</strong> Anticipating health issues before they manifest</li>
+        <li><strong>Enhanced Customer Experience:</strong> Quick responses and personalized interactions improve guest satisfaction</li>
+        <li><strong>Increased Bookings:</strong> 24/7 availability leads to higher conversion rates</li>
+        <li><strong>Reduced Errors:</strong> Minimized mistakes in booking process</li>
+        <li><strong>Scalability:</strong> Handle fluctuating inquiry volumes efficiently</li>
+        <li><strong>Staff Optimization:</strong> Free human staff for complex tasks</li>
+        <li><strong>Data Collection:</strong> Gather valuable insights into customer preferences</li>
+        <li><strong>Brand Innovation:</strong> Showcase technological advancement in hospitality</li>
+      </ul>
+
+      <h2>Future Enhancements</h2>
+      <p>The system can be extended with additional features:</p>
+      <ul>
+        <li><strong>Advanced Personalization:</strong> Learning from past interactions to provide more tailored experiences</li>
+        <li><strong>Integration Capabilities:</strong> Connect with property management and CRM systems</li>
+        <li><strong>Expanded Language Support:</strong> Add more languages and dialects for international guests</li>
+        <li><strong>Analytics Dashboard:</strong> Visualize booking patterns and guest preferences</li>
+        <li><strong>Smart Room Controls:</strong> Integration with IoT devices for room automation</li>
+        <li><strong>Predictive Services:</strong> Anticipate guest needs based on historical data</li>
       </ul>
 
       <h2>Conclusion</h2>
-      <p>AI in healthcare represents a paradigm shift in how we approach patient care. As technology continues to evolve, we can expect even more groundbreaking applications that will further transform the healthcare landscape.</p>
+      <p>Implementing a voice AI assistant in hotel management represents a significant step forward in automation and customer service. This system enhances both guest experience and operational efficiency while providing valuable insights for continuous improvement. As technology evolves, these AI assistants will become increasingly sophisticated, offering even more advanced features and capabilities for the hospitality industry.</p>
     `,
-        image: "/api/placeholder/1200/400",
-        category: "Healthcare",
+    image: "../../public/img/voiceai.jpeg",
+    category: "Technology",
         author: {
-            name: "Dr. Sarah Chen",
+            name: "Haresh Baraiya",
             avatar: "/api/placeholder/64/64",
-            bio: "AI Research Lead & Healthcare Innovation Specialist",
-            credentials: "Ph.D. in Medical AI, Stanford University"
+            bio: "AI Solutions Architect & Hospitality Technology Specialist",
+            credentials: "Computer Science"
+        },
+        date: "2024-03-15",
+        readTime: "10 min read",
+        tags: ["AI", "Hospitality", "Voice Technology", "Innovation", "Customer Service", "Digital Transformation"]
+    },
+    2: {
+        title: "The Future of AI in Healthcare: Transforming Patient Care",
+        content: `
+      <h2>Introduction</h2>
+      <p>Language models like GPT are trained on large datasets, usually up to a certain cut-off date. For example, a model might be trained on data available up to 2021. Despite the impressive capabilities of these models, they struggle with information that emerges after their training period. This limitation can lead to "hallucinations," where the model generates inaccurate or nonsensical responses due to the lack of updated knowledge.</p>
+     
+      <h2>Key Methods to Address Data Limitations</h2>
+      <p>There are two primary methods to address this issue:</p>
+      <ul>
+        <li><strong>Fine-Tuning:</strong> This involves updating the model's parameters with new data.</li>
+        <li><strong>Retrieval-Augmented Generation (RAG):</strong> This method retrieves relevant information from external sources to supplement the model's responses.</li>
+      </ul>
+
+      <h2>Fine-Tuning Overview</h2>
+      <p>Fine-tuning is a well-known technique where new data is used to update the pre-trained parameters of a language model. This process ensures that the model can generate accurate responses based on the latest information. However, fine-tuning has its challenges:</p>
+      <ul>
+        <li>Resource Intensive: Traditional fine-tuning can be resource-intensive, especially for large models with billions of parameters.</li>
+        <li>Complexity: Updating a vast number of parameters can be complex and time-consuming.</li>
+      </ul>
+
+      <h2>Introduction to RAG</h2>
+      <p>Retrieval-Augmented Generation (RAG) offers a different approach by integrating external data sources without altering the model's parameters. Here's how it works:</p>
+      <ul>
+        <li><strong>External Data Source:</strong> RAG uses an external knowledge base or database that contains the latest information.</li>
+        <li><strong>Query Processing:</strong> When a query is received, RAG searches the external data source for relevant information.</li>
+        <li><strong>Response Generation:</strong> The retrieved information is then combined with the model's response to generate a comprehensive and accurate answer.</li>
+      </ul>
+
+      <h2>Practical Applications</h2>
+      <p>RAG is increasingly popular due to its practicality and efficiency. Some common applications include:</p>
+      <ul>
+        <li>Chatbots: Enhance chatbot responses with up-to-date information from specific knowledge bases.</li>
+        <li>PDF Analysis: Analyze and generate responses based on the content of uploaded PDF documents.</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Retrieval-Augmented Generation (RAG) is a versatile and efficient technique for enhancing language models with new information. By integrating external data sources, RAG overcomes the limitations of traditional fine-tuning, offering a more flexible and less resource-intensive solution.</p>
+    `,
+    image: "../../public/img/RAG.png",
+    category: "Healthcare",
+        author: {
+            name: "Haresh Baraiya",
+            avatar: "/api/placeholder/64/64",
+            bio: "AI Research Lead",
+            credentials: "Computer Science"
         },
         date: "2024-03-15",
         readTime: "8 min read",
         tags: ["Healthcare", "AI", "Machine Learning", "Medical Innovation"]
     },
-    2: {
-        title: "The Impact of AI on Business Transformation",
-        content: `Similar content structure...`,
-        image: "/api/placeholder/1200/400",
-        category: "Business",
+    3: {
+
+        title: "Building a Multi-Modal Chatbot with LangChain, ChatGPT, and DALL·E 3",
+        content: `
+      <h2>Introduction</h2>
+      <p>In the field of Generative AI, agents have become a crucial element of innovation. They empower Large Language Models (LLMs) to reason better and perform complex tasks such as interfacing with external data sources. This includes performing Google searches, calling external APIs, or generating personalized images.</p>
+
+      <h2>The Challenge of Living in the Real World</h2>
+      <p>The main challenge involves retrieving information from the real world that falls outside the training scope of Large Language Models (LLM). This could be anything from executing calls to a proprietary API or supplying the LLM with data (such as files or images) it hasn't been trained on and then facilitating discussions based on this data.</p>
+
+      <h2>The Role of Agents</h2>
+      <p>Agents are equipped with various tools, including invoking external APIs, conducting Google searches, or generating images based on specific instructions. When presented with a user's task or query, the agent engages the LLM for reasoning, essentially decomposing the task into smaller, intermediate steps.</p>
+
+      <h2>Three Main Tools for the Solution</h2>
+      <p>The multi-modal chatbot is backed by an agent that uses three primary tools:</p>
+      <ul>
+        <li><strong>REST Countries API Chain:</strong> Enables retrieving information on countries</li>
+        <li><strong>DALL·E 3 Image Generator:</strong> Generates images of countries based on the country name</li>
+        <li><strong>Google Search Tool:</strong> Fetches information from the web</li>
+      </ul>
+
+      <h2>Technical Implementation</h2>
+      <h3>Creating the Agent</h3>
+      <pre><code>def create_agent():
+    tools = [countries_image_generator, get_countries_by_name, google_search]
+    functions = [convert_to_openai_function(f) for f in tools]
+    model = ChatOpenAI(model_name="gpt-3.5-turbo-0125").bind(functions=functions)
+    
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", "You are helpful but sassy assistant"),
+        MessagesPlaceholder(variable_name="chat_history"),
+        ("user", "{input}"),
+        MessagesPlaceholder(variable_name="agent_scratchpad")
+    ])
+
+    memory = ConversationBufferWindowMemory(
+        return_messages=True,
+        memory_key="chat_history",
+        k=5
+    )
+
+    chain = RunnablePassthrough.assign(
+        agent_scratchpad=lambda x: format_to_openai_functions(
+            x["intermediate_steps"]
+        )
+    ) | prompt | model | OpenAIFunctionsAgentOutputParser()
+
+    agent_executor = AgentExecutor(
+        agent=chain,
+        tools=tools,
+        memory=memory,
+        verbose=True
+    )
+
+    return agent_executor</code></pre>
+
+      <h3>Custom Tools Implementation</h3>
+      <h4>1. Countries Image Generator</h4>
+      <pre><code>@tool
+def countries_image_generator(country: str):
+    """Call this to get an image of a country"""
+    res = DallEAPIWrapper(model="dall-e-3").run(
+        f"You generate image of a country representing the most typical country's characteristics, incorporating its flag. the country is {country}"
+    )
+    answer_to_agent = (
+        f"Use this format- Here is an image of {country}: [{country} Image]"
+        f"url= {res}"
+    )
+    return answer_to_agent</code></pre>
+
+      <h4>2. Countries API Integration</h4>
+      <pre><code>@tool(args_schema=RequestModel)
+def get_countries_by_name(path_params: PathParams, params: Optional[Params] = None):
+    """Useful for when you need to answer questions about countries."""
+    BASE_URL = f'https://restcountries.com/v3.1/name/{path_params.name}'
+    effective_params = {"fields": ",".join(params.fields)} if params and params.fields else None
+    req = prepare_and_log_request(BASE_URL, effective_params)
+    response = requests.get(req.url)
+    response.raise_for_status()
+    return response.json()</code></pre>
+
+      <h4>3. Google Search Integration</h4>
+      <pre><code>@tool
+def google_search(query: str):
+    """Performs a Google search using the provided query string."""
+    return SerpAPIWrapper().run(query)</code></pre>
+
+      <h2>Architecture Overview</h2>
+      <p>The multi-modal chatbot follows a structured workflow:</p>
+      <ol>
+        <li><strong>Prompt Refinement:</strong> Initial user prompt and conversation history are processed</li>
+        <li><strong>Thought Process:</strong> The agent reasons about the appropriate tool to use</li>
+        <li><strong>Tool Invocation:</strong> Selected tool is executed</li>
+        <li><strong>Observation:</strong> Tool output is processed for final response</li>
+      </ol>
+
+      <h2>Real-World Examples</h2>
+      <p>The chatbot has demonstrated impressive capabilities in various scenarios:</p>
+      <ul>
+        <li>Generating country-specific images with DALL·E 3</li>
+        <li>Retrieving current tourist statistics through Google search</li>
+        <li>Accessing detailed country information via the REST Countries API</li>
+        <li>Maintaining conversation context for follow-up questions</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>This implementation showcases the power of combining different AI tools and APIs to create a versatile chatbot capable of handling complex, multi-modal interactions while maintaining context and providing accurate information from various sources.</p>
+    `,
+    image: "../../public/img/lang.jpeg",
+    category: "Artificial Intelligence",
         author: {
-            name: "John Smith",
+            name: "Haresh Baraiya",
             avatar: "/api/placeholder/64/64",
-            bio: "Business Strategy Consultant",
-            credentials: "MBA, Harvard Business School"
+            bio: "AI Software Architect",
+            credentials: " AI Engineer"
         },
-        date: "2024-03-14",
-        readTime: "6 min read",
-        tags: ["Business", "AI", "Digital Transformation"]
-    }
+        date: "2024-03-15",
+        readTime: "12 min read",
+        tags: ["AI", "ChatGPT", "DALL·E", "LangChain", "Chatbots", "Programming"]
+    },
+    4: {
+        title: "WhatsApp LLM Bots: Transforming Business Communication",
+        content: `
+      <h2>Introduction</h2>
+      <p>WhatsApp LLM (Large Language Model) bots are revolutionizing how businesses communicate with their customers, offering powerful capabilities through the integration of advanced AI with the world's most popular messaging platform.</p>
+     
+      <h2>Key Components</h2>
+      <h3>WhatsApp Business API</h3>
+      <ul>
+        <li><strong>Two-way communication:</strong> Enables programmatic sending and receiving of messages</li>
+        <li><strong>Templated Messages:</strong> Automates communications using sanctioned templates</li>
+        <li><strong>Webhooks:</strong> Enables real-time event handling</li>
+      </ul>
+
+      <h3>Large Language Models (LLMs)</h3>
+      <ul>
+        <li><strong>Natural Language Understanding:</strong> Comprehends user queries with context</li>
+        <li><strong>Contextual Response:</strong> Generates relevant, informative responses</li>
+        <li><strong>Continuous Learning:</strong> Improves through fine-tuning and data updates</li>
+      </ul>
+
+      <h2>Architectural Framework</h2>
+      <h3>Front-end:</h3>
+      <p>WhatsApp serves as the primary interface where users interact with the bot through their familiar messaging app.</p>
+
+      <h3>Back-end Components:</h3>
+      <ul>
+        <li>WhatsApp Business API Integration</li>
+        <li>LLM Integration</li>
+        <li>NLP Pipeline</li>
+        <li>Business Logic</li>
+        <li>Database Management</li>
+        <li>Middleware Integration</li>
+      </ul>
+
+      <h2>Business Applications</h2>
+      <h3>Customer Service Excellence</h3>
+      <ul>
+        <li><strong>24/7 Support:</strong> Round-the-clock customer assistance</li>
+        <li><strong>FAQ Automation:</strong> Instant responses to common queries</li>
+        <li><strong>Personalized Recommendations:</strong> Tailored product/service suggestions</li>
+      </ul>
+
+      <h3>Sales and Marketing Enhancement</h3>
+      <ul>
+        <li>Lead Generation</li>
+        <li>Product Promotions</li>
+        <li>Appointment Scheduling</li>
+        <li>Customer Surveys</li>
+      </ul>
+
+      <h3>E-commerce Integration</h3>
+      <ul>
+        <li>Order Tracking</li>
+        <li>Product Inquiries</li>
+        <li>Return/Refund Management</li>
+        <li>Personalized Shopping Recommendations</li>
+      </ul>
+
+      <h2>Industry-Specific Applications</h2>
+      <h3>Healthcare</h3>
+      <ul>
+        <li>Appointment Management</li>
+        <li>Medication Reminders</li>
+        <li>Health Advisory Services</li>
+        <li>Telemedicine Support</li>
+      </ul>
+
+      <h3>Financial Services</h3>
+      <ul>
+        <li>Account Inquiries</li>
+        <li>Payment Reminders</li>
+        <li>Customer Support</li>
+        <li>Personalized Financial Advice</li>
+      </ul>
+
+      <h2>Key Benefits</h2>
+      <ul>
+        <li><strong>Enhanced Customer Service:</strong> Personal and prompt assistance</li>
+        <li><strong>Operational Efficiency:</strong> Automation of routine tasks</li>
+        <li><strong>Cost Reduction:</strong> Lower operational expenses</li>
+        <li><strong>Data Insights:</strong> Valuable customer analytics</li>
+      </ul>
+
+      <h2>Implementation Considerations</h2>
+      <ul>
+        <li><strong>Data Privacy:</strong> Compliance with protection laws</li>
+        <li><strong>Bias Management:</strong> Ensuring fair and unbiased responses</li>
+        <li><strong>Continuous Improvement:</strong> Regular updates and fine-tuning</li>
+      </ul>
+    `,
+        image: "../../public/img/ai1.jpg",
+        category: "Technology",
+        author: {
+            name: "Haresh Baraiya",
+            avatar: "/api/placeholder/64/64",
+            bio: "AI Solutions Architect",
+            credentials: "AI Engineer"
+        },
+        date: "2024-03-15",
+        readTime: "10 min read",
+        tags: ["WhatsApp", "AI", "Chatbots", "Business", "Technology", "LLM"]
+    },
 };
 
 const BlogPost = () => {
@@ -97,7 +392,7 @@ const BlogPost = () => {
         const createParticles = () => {
             particles = [];
             const numberOfPoints = 100;
-            
+
             for (let i = 0; i < numberOfPoints; i++) {
                 particles.push({
                     x: Math.random() * canvas.width,
@@ -123,7 +418,7 @@ const BlogPost = () => {
                 const dx = mousePosition.x - particle.x;
                 const dy = mousePosition.y - particle.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
-                
+
                 if (distance < 200) {
                     const force = (200 - distance) / 200;
                     particle.vx += dx * force * 0.02;
@@ -181,7 +476,7 @@ const BlogPost = () => {
     const handleShare = (platform) => {
         const url = window.location.href;
         const text = `Check out this article: ${post.title}`;
-        
+
         switch (platform) {
             case 'facebook':
                 window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`);
@@ -214,9 +509,9 @@ const BlogPost = () => {
                 />
                 <Container maxWidth="lg" sx={{ py: 8, position: 'relative', zIndex: 1 }}>
                     <Typography variant="h4" sx={{ color: 'white', mb: 2 }}>Blog post not found</Typography>
-                    <Link 
-                        to="/blog" 
-                        style={{ 
+                    <Link
+                        to="/blog"
+                        style={{
                             color: '#4A9DFF',
                             textDecoration: 'none',
                             display: 'flex',
@@ -231,7 +526,7 @@ const BlogPost = () => {
         );
     }
     const renderContent = () => (
-        <Box 
+        <Box
             dangerouslySetInnerHTML={{ __html: post.content }}
             sx={{
                 color: 'rgba(255, 255, 255, 0.9)',
@@ -275,9 +570,9 @@ const BlogPost = () => {
 
     // Share section component
     const renderShareSection = () => (
-        <Box sx={{ 
-            display: 'flex', 
-            gap: 2, 
+        <Box sx={{
+            display: 'flex',
+            gap: 2,
             alignItems: 'center',
             mt: 4,
             pt: 4,
@@ -289,13 +584,13 @@ const BlogPost = () => {
                 { icon: <TwitterIcon />, platform: 'twitter', color: '#1DA1F2' },
                 { icon: <LinkedInIcon />, platform: 'linkedin', color: '#0077B5' }
             ].map((social) => (
-                <IconButton 
+                <IconButton
                     key={social.platform}
                     onClick={() => handleShare(social.platform)}
-                    sx={{ 
+                    sx={{
                         color: social.color,
                         bgcolor: 'rgba(255, 255, 255, 0.1)',
-                        '&:hover': { 
+                        '&:hover': {
                             bgcolor: `${social.color}20`,
                             transform: 'translateY(-2px)'
                         },
@@ -333,7 +628,7 @@ const BlogPost = () => {
                         color: '#4A9DFF',
                         mb: 4,
                         width: 'fit-content',
-                        '&:hover': { 
+                        '&:hover': {
                             color: '#90caf9',
                             transform: 'translateX(-5px)'
                         },
@@ -368,8 +663,8 @@ const BlogPost = () => {
                                 key={tag}
                                 label={tag}
                                 variant="outlined"
-                                sx={{ 
-                                    borderColor: 'rgba(74, 157, 255, 0.3)', 
+                                sx={{
+                                    borderColor: 'rgba(74, 157, 255, 0.3)',
                                     color: '#4A9DFF',
                                     '&:hover': {
                                         borderColor: '#4A9DFF',
@@ -420,7 +715,7 @@ const BlogPost = () => {
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                             <Avatar
                                 src={post.author.avatar}
-                                sx={{ 
+                                sx={{
                                     width: 64,
                                     height: 64,
                                     border: '2px solid rgba(74, 157, 255, 0.3)'
@@ -436,8 +731,8 @@ const BlogPost = () => {
                             </Box>
                         </Box>
 
-                        <Box sx={{ 
-                            display: 'flex', 
+                        <Box sx={{
+                            display: 'flex',
                             gap: 3,
                             ml: { md: 'auto' },
                             color: 'rgba(255, 255, 255, 0.7)'
@@ -463,7 +758,7 @@ const BlogPost = () => {
                     {renderContent()}
                     {/* Share Section */}
                     {renderShareSection()}
-                    </Paper>
+                </Paper>
             </Container>
         </Box>
     );
