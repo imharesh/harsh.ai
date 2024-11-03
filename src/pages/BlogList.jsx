@@ -8,7 +8,7 @@ const blogPosts = [
     id: 1,
     title: "AI Voice Assistant with Deepgram",
     excerpt: "In today's fast-paced hospitality industry, providing excellent customer service around the clock is crucial. This article will guide you through creating an AI-powered voice assistant specifically designed for hotel and resort booking management. This innovative solution combines speech recognition, natural language processing, and text-to-speech technology to offer a seamless, conversational experience for customers.",
-    image: '../../public/img/voiceai.jpeg',
+    image: '/img/voiceai.jpeg',
     category: "Generative AI",
     author: {
       name: "Haresh Baraiya",
@@ -21,7 +21,7 @@ const blogPosts = [
     id: 2,
     title: "Understanding Retrieval-Augmented Generation (RAG) in LangChain",
     excerpt: "Ever wondered how to keep your language models up-to-date with the latest information? Dive into a blog post on Retrieval-Augmented Generation (RAG) and see how top companies like OpenAI and Google are leading the way. RAG is an innovative technique that breathes new life into LMs by incorporating up-to-date knowledge that wasn't part of their initial training. Whether you're a business professional looking to supercharge your AI capabilities or an academic seeking cutting-edge solutions, this guide will help you harness the power of RAG. We'll break down the concept into five easy-to-understand sections, making it accessible even if you're new to AI.",
-    image: '../../public/img/RAG.png',
+    image: '/img/RAG.png',
     category: "Generative AI",
     author: {
       name: "Haresh Baraiya",
@@ -34,7 +34,7 @@ const blogPosts = [
     id: 3,
     title: "Build LLM Agent combining Reasoning and Action (ReAct) framework using LangChain",
     excerpt: "Most of the people see LLM as a knowledge source which is having good understanding of language and is built using internet data. So people can ask some questions and LLMs can return the answer. But one interesting thing about LLM is that they can be used as a reasoning engine. LLMs can do reasoning and can take action through different techniques.",
-    image: '../../public/img/lang.jpeg',
+    image: '/img/lang.jpeg',
     category: "Generative AI",
     author: {
       name: "Haresh Baraiya",
@@ -47,7 +47,7 @@ const blogPosts = [
     id: 4,
     title: "Chatbots that Convert: The Power of WhatsApp LLM Bots",
     excerpt: "Customer interaction and operation performance are the current key elements of the success of most businesses. Given such a humongous user base, WhatsApp offers the best-suited platform for these interactions. The introduction of large language models into WhatsApp bots can be seized as an opportunity for businesses with personalized, efficient, and scalable communication solutions.",
-    image: '../../public/img/ai1.jpg',
+    image: '/img/ai1.jpg',
     category: "Generative AI",
     author: {
       name: "Haresh Baraiya",

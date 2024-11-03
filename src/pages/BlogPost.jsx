@@ -85,7 +85,7 @@ const blogPostsData = {
       <h2>Conclusion</h2>
       <p>Implementing a voice AI assistant in hotel management represents a significant step forward in automation and customer service. This system enhances both guest experience and operational efficiency while providing valuable insights for continuous improvement. As technology evolves, these AI assistants will become increasingly sophisticated, offering even more advanced features and capabilities for the hospitality industry.</p>
     `,
-    image: "../../public/img/voiceai.jpeg",
+    image: "/img/voiceai.jpeg",
     category: "Technology",
         author: {
             name: "Haresh Baraiya",
@@ -135,7 +135,7 @@ const blogPostsData = {
       <h2>Conclusion</h2>
       <p>Retrieval-Augmented Generation (RAG) is a versatile and efficient technique for enhancing language models with new information. By integrating external data sources, RAG overcomes the limitations of traditional fine-tuning, offering a more flexible and less resource-intensive solution.</p>
     `,
-    image: "../../public/img/RAG.png",
+    image: "/img/RAG.png",
     category: "Healthcare",
         author: {
             name: "Haresh Baraiya",
@@ -255,7 +255,7 @@ def google_search(query: str):
       <h2>Conclusion</h2>
       <p>This implementation showcases the power of combining different AI tools and APIs to create a versatile chatbot capable of handling complex, multi-modal interactions while maintaining context and providing accurate information from various sources.</p>
     `,
-    image: "../../public/img/lang.jpeg",
+    image: "/img/lang.jpeg",
     category: "Artificial Intelligence",
         author: {
             name: "Haresh Baraiya",
@@ -358,7 +358,7 @@ def google_search(query: str):
         <li><strong>Continuous Improvement:</strong> Regular updates and fine-tuning</li>
       </ul>
     `,
-        image: "../../public/img/ai1.jpg",
+        image: "/img/ai1.jpg",
         category: "Technology",
         author: {
             name: "Haresh Baraiya",
